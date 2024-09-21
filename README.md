@@ -1,4 +1,4 @@
-### Face Recognition Attendance System
+#### Face Recognition Attendance System
 ## This project is a face recognition-based attendance system. It detects faces in a classroom image, matches them with known student faces, and exports the attendance data to an Excel file.
 
 ## Features
