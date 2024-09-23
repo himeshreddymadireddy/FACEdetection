@@ -1,15 +1,8 @@
-#### Face Recognition Attendance System
-## This project is a face recognition-based attendance system. It detects faces in a classroom image, matches them with known student faces, and exports the attendance data to an Excel file.
+### Face Recognition Attendance System
+# This project is a Face Recognition Attendance System that automates attendance marking in a classroom using facial recognition. The system captures and detects faces from an input image, matches them with stored student images, and generates an attendance report in Excel format.
 
 ## Features
-## Detects faces in an image using Haar Cascade classifiers.
-## Matches detected faces with pre-stored student images.
-## Marks students as present if their face is recognized in the image.
-## Exports attendance (both present and absent students) to an Excel file.
-## Prerequisites
-## Make sure you have the following installed:
-
-## Python 3.x
-## OpenCV
-## Face Recognition library
-## Pandas
+Face Detection: Utilizes OpenCV's Haar Cascade classifiers to detect faces in a classroom image.
+Face Recognition: Compares detected faces with pre-stored student images using the Face Recognition library.
+Attendance Marking: Automatically marks students as present if their face is recognized in the image.
+Export to Excel: Attendance data (both present and absent students) is exported to an Excel file for easy record-keeping.
